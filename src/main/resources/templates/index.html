@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html  xmlns:th="http://www.thymeleaf.org">
+<head>
+    <meta charset="UTF-8">
+    <title>2D Array Demo | Aditya & Neil</title>
+</head>
+
+<body bgcolor="#20BCE3"></body>
+
+<body>
+<form action="/countIslands" method="post">
+    <p><b>2D Arrays - Counting the # of Islands</b></p>
+    <p>This program aims to find the # of islands in an inputted 2D Array. An island is a group of connected 1s.</p>
+    <label>Please input the # of row in the 2D Array.</label>
+    <input type="text" name="rows" placeholder="1" /><br>
+    <label>Please input the # of columns in the 2D Array.</label>
+    <input type="text" name="columns" placeholder="1" /><br>
+    <label>Please input the 2D Array. Separate each integer with a comma. Press enter to input integers in the next row.</label><br>
+    <textarea name="input_array" cols="20" rows="10"></textarea><br>
+    <input type="submit" name="submit" value="Submit Array" />
+</form>
+</body>
+</html>
