@@ -1,4 +1,4 @@
-# 2DArrayIslands Program
+# 2DArrayIslands Program by Aditya and Neil
 
 ## How to Run the Program
 
